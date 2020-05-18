@@ -1,0 +1,4 @@
+    - name: Inserting a line at end of file
+      lineinfile:
+        path: /home/francesca
+        line: "{{ trustedMSC }}"
