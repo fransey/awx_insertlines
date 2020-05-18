@@ -1,5 +1,5 @@
 - name:  "Insert trusted MSC"
-  hosts: "{{ deployment_host }}"
+  hosts: localhost
   connection: ssh
 
   roles:
