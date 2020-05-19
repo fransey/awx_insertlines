@@ -1,6 +1,6 @@
 - name:  "Insert trusted MSC"
   hosts: 10.0.2.15
-  connection: local
+  connection: ssh
 
   roles:
     - "{{ role }}"
