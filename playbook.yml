@@ -1,5 +1,5 @@
 - name:  "Insert trusted MSC"
-  hosts: localhost
+  hosts: 10.0.2.15
   connection: local
 
   roles:
